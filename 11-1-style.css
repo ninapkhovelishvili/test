@@ -496,6 +496,10 @@
 	padding: 20px;
 }
 
+
+.week{
+	width: 
+}
 .diagram-section-top a{
 	color: gray;
 	text-decoration: none;
@@ -954,7 +958,11 @@
 	transition: 0.5s;
 }
 
-.item li{
+.main-item li{
+	list-style-type: none;
+}
+
+.other-items li{
 	list-style-type: none;
 }
 .main-item{
@@ -985,7 +993,7 @@
 	transition: 0.5s;
 }
 
-.item a{
+.other-items a{
 	font-size: 17px;
 	color: gray;
 	text-decoration: none;
@@ -1010,13 +1018,16 @@
 	transition: 0.5s;
 }
 
-.item:hover {
+.other-items:hover a{
 	color: white;
 }
 
-.item:hover a{
+/*.a-class:hover a{
 	color: white;
 }
+*/
+
+/* ese rom damecera */
 
 
 @media only screen and (max-width: 768px){
@@ -1073,5 +1084,50 @@
 
 	.refund{
 		width: 50px;
+	}
+
+	.dashboard-row-item h3{
+		font-size: 15px;
+	}
+}
+
+
+@media only screen and (max-width: 420px){
+	.menu{
+		display: none;
+	}
+
+	.wrapper{
+		padding-left: 0px;
+	}
+
+	.logo{
+		display: none;
+	}
+	.header-item-right{
+		margin-left: 0px;
+	}
+
+	.table-item-titles{
+		font-size: 7px;
+	}
+
+	.table-item{
+		font-size: 7px;
+	}
+
+	.chargebook{
+		width: 50px;
+		height: 13px;
+	}
+
+	.refund{
+		width: 35px;
+		height: 13px;
+	}
+
+	.paid{
+		width: 30px;
+		height: 13px;
 	}
 }
